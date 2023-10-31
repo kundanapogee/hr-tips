@@ -1,0 +1,417 @@
+
+body{
+  color: #495057;
+  font-weight: 400;
+  -webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+
+font-family: 'Poppins', sans-serif;
+margin: 0;
+padding: 0;
+}
+
+
+
+ a{
+  text-decoration: none;
+ }
+  .font10{
+  font-size: 10px;
+ }
+ .font13{
+  font-size: 13px;
+ }
+.font14{
+  font-size: 14px;
+}
+.font15{
+  font-size: 15px;
+}
+
+
+.bgColorBlack{
+  background-color: #121212;
+  color: #fff;
+}
+
+/*select:focus, input:focus, textarea:focus{
+  box-shadow: none;
+}*/
+
+  .sectionPadding{
+    padding: 70px 0;
+  }
+  .profileSection .container{
+    background-image: url(https://maxartkiller.com/website/mobileux2/HTML/assets/img/user1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .profileSection .innerWrap{
+    background-color: rgba(207, 250, 255, 0.9);
+    padding: 15px 0;
+  }
+  .profileSection .profileImg{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .profileSection .profileImg>img {
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+    margin-bottom: 16px;
+}
+.profileSection .logoutDesktop{
+  position: absolute;right: 8.8%;top: 30px;
+}
+
+
+.sectionBox {
+  min-height: 100vh;
+}
+
+
+.sectionBox .box{
+  margin-bottom: 23px;
+}
+.sectionBox .box .imgWrap{
+  width:100%;
+/*  height: 250px;*/
+  box-shadow: 2px 2px 6px #999;
+  border-radius: 20px;
+  padding: 30px;
+}
+.sectionBox .box .textwrap p{
+  font-size: 24px;
+  color: #212121;
+}
+footer p{
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 0;
+  text-align: right;
+}
+footer p a{
+  text-decoration: none;
+}
+
+
+.tableWrap thead tr th{
+  font-size: 16px;
+}
+.tableWrap tr td{
+  font-size: 14px;
+}
+
+.commonBox .box{
+  box-shadow: 2px 2px 6px #999;
+  border-radius: 14px;
+  padding: 25px;
+  color: #212121;
+}
+.font-size-11 {
+    font-size: 11px!important;
+}
+
+
+
+.badge-soft-success {
+    color: #34c38f;
+    background-color: rgba(52,195,143,.18);
+    padding-bottom: 5px;
+}
+.badge-soft-danger {
+    color: #f46a6a;
+    background-color: rgba(244,106,106,.18);
+    padding-bottom: 5px;
+}
+.badge-soft-warning {
+    color: #f1b44c;
+    background-color: rgba(241,180,76,.18);
+    padding-bottom: 5px;
+}
+
+
+
+.waves-effect {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.btn-primary{
+  color: #fff;
+  background-color: #556ee6;
+  border-color: #556ee6;
+}
+.btn-success{
+  color: #fff;
+  background-color: #34C38F;
+  border-color: #34C38F;
+}
+.btn-secondary{
+  color: #fff;
+  background-color: #74788d;
+  border-color: #74788d;
+}
+
+.btn {
+  padding: 0.47rem 0.75rem;
+  font-size: 0.8125rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+
+.myModel .btn-close{
+  filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+}
+.myModel form input:focus{
+  box-shadow: none;
+}
+.myModel form textarea:focus{
+  box-shadow: none;
+}
+.myModel form select:focus{
+  box-shadow: none;
+}
+.myModel form label{
+  font-size: 14px;
+  font-weight: 600;
+}
+.myModel form input, .myModel form select, .myModel form textarea{
+border-radius: 3px;
+}
+.myModel .modal-header{
+  padding: 13px 20px 13px!important;
+}
+
+.modal .modal-body {
+    color: #495057;
+    padding: 20px 20px;
+}
+
+.loginSection .formWrapContainer{
+  box-shadow: 3px 3px 9px #999;
+  padding-bottom: 40px;
+  border-radius: 10px;
+}
+.loginSection .formWrapContainer img{
+  border-radius: 10px;
+}
+.loginSection .formWrap input{
+  min-height: 47px;
+  border: none;
+  border-radius: 0;
+  font-size: 15px;
+  border-bottom: 1px solid #ccc;
+  padding-left: 0;
+  margin-left: 13px;
+}
+.loginSection .formWrap input:focus{
+  box-shadow: none;
+}
+.loginSection .formWrap .headingWrap{
+  margin: 0px 0 20px 0;
+}
+.loginSection .formWrap .headingWrap h3{
+  color: #011352;
+  font-size: 28px;
+}
+.loginSection .formWrap form .iconWrap{
+  font-size: 19px;
+}
+.loginSection .formWrap form .iconWrap i{
+  padding-top: 13px;
+}
+.loginSection .formWrap button{
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+
+
+
+.modal .modal-body{
+  color: #495057;
+}
+.modal .modal-body p{
+  font-size: 13px;
+  font-weight: 400;
+}
+
+
+.myModel form label.error {
+    font-size: 12px;
+    list-style: none;
+    color: #f46a6a;
+    margin-top: 5px;
+}
+
+
+
+
+
+#birthdayModal .textWrapRight h4{
+  font-size: 35px;
+  line-height: 1.4;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+#birthdayModal .textWrapRight span{
+  color: red;
+}
+#birthdayModal .textWrapRight .quotePara{
+  margin-top: 7px;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+.font-weight-normal{
+  font-weight: 400;
+}
+
+
+.mobileMenu .navbar{
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ccc;
+  }
+  .mobileMenu .navbar-nav{
+    flex-direction: row;
+  }
+  .mobileMenu .navbar .navbar-brand img{
+    width: 140px;
+  }
+  .mobileMenu .navbar-nav li{
+    padding: 0 7px;
+  }
+  .mobileMenu .navbar-nav .profileImg{
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid #999;
+  }
+  .mobileMenu .navbar-nav .imgQR{
+    width: 33px;
+    border-radius: 4px;
+  }
+  .mobileMenu .navbar-nav .imgLogout{
+    width: 35px;
+/*    margin-top: 7px;*/
+  }
+
+
+.commonBox .box p strong{
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .commonBox .box p{
+    font-size: 14px;
+    color: #605f5f;
+  }
+
+
+
+.form-label{
+  font-weight: 500;
+  color: #495057;
+  font-size: 14px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.47rem 0.75rem;
+    font-size: .8125rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    -webkit-transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+}
+.error {
+    font-size: 12px;
+    list-style: none;
+    color: #f46a6a;
+    margin-top: 5px;
+}
+.boxAttendance{
+  box-shadow: 2px 2px 6px #ccc;
+  padding: 27px 20px 12px 20px;
+  border-radius: 15px;
+  position: relative;
+}
+.boxAttendance .boxHeadingAtten{
+  top: -11px;
+  position: absolute;
+  display: inline-block;
+  background-color: #0b5838;
+  color: #64f7ff;
+  padding: 5px 9px;
+  border-radius: 9px;
+}
+.boxAttendance .boxHeadingAtten h6{
+  font-size:11px;
+}
+.boxAttendance .fc-event {
+    position: relative;
+    display: block;
+    font-size: .85em;
+    line-height: 1.4;
+    border-radius: 3px;
+    padding: 4px 4px 3px;
+    border: 1px solid #0c8383;
+    background-color: #0c8383;
+    color: #fff;
+    font-size: 10px;
+}
+.boxAttendance .topTag{
+  border-radius: 3px;
+  display: inline;
+  font-size: 9px;
+  color: #fff;
+  position: absolute;
+  top: -10px;
+}
+
+
+
+.boxAttendance .boxHeadingAtten.bgRed{
+  background-color: #e90505;
+  color: #ffe6e2;
+}
+
+
+ .fromTimeBreak{
+    background-color: red;
+    color: #fff;
+    font-size: 10px;
+    padding: 2px 15px!important;
+    border-radius: 10px;
+    display: inline-table;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+  }
+.breakOutBorder{
+    border: 2px solid red;
+  }

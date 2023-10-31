@@ -1,0 +1,8 @@
+.fc td, .fc th {
+    border-style: solid;
+    border-width: 1px;
+    padding: 0;
+    border-color: #e3e1e1;
+    vertical-align: top;
+    color: #2b2828;
+}

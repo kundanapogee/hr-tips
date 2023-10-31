@@ -1,0 +1,85 @@
+@media only screen and (max-width: 600px) {
+  .profileSection .innerWrap {
+    padding: 23px 0;
+  }
+  .profileSection .profileImg {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .profileSection .profileImg>img {
+    margin-bottom: 10px;
+  }
+  .sectionPadding {
+    padding: 40px 0;
+  }
+  .sectionBox .box .textwrap p {
+    font-size: 16px;
+  }
+  .sectionBox .box .imgWrap {
+    padding: 15px;
+  }
+  .commonBox .box p{
+  font-size: 17px;
+}
+
+
+.alertWrap {
+position: absolute;
+    right: 5.5px;
+    z-index: 99;
+    top: 30px;
+}
+.alertWrap .alert {
+  padding: 10px 0 10px 10px;
+  padding-right: 25px;
+  font-size: 13px;
+}
+.alertWrap .alert-dismissible .btn-close {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    z-index: 2;
+    padding: 1.25rem 1rem;
+}
+.tableWrap thead tr th {
+    font-size: 11px;
+}
+.tableWrap tr td {
+    font-size: 10px;
+    white-space: nowrap;
+}
+.font-size-11{
+  font-size: 9px!important;
+}
+
+.fc-left{
+  display: flex;
+}
+.fc-toolbar h2 {
+    font-size: 12px!important;
+    margin-left: 6px!important;
+}
+.fc-dayGridMonth-button{
+  font-size: 11px!important;
+  padding: 4px 4px!important;
+}
+.fc-today-button{
+  font-size: 12px!important;
+  padding: 7px 8px!important;
+}
+.fc-prev-button, .fc-next-button{
+  padding: 7px 8px!important;
+}
+.fc-toolbar>*>:not(:first-child) {
+    margin-left: 4px!important;
+}
+
+
+
+
+
+
+  
+}

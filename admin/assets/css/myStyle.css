@@ -1,0 +1,109 @@
+.font12{
+    font-size: 12px!important;
+}
+.font13{
+    font-size: 13px!important;
+}
+.font14{
+    font-size: 14px!important;
+}
+
+
+.employeeProfileDetail .profilePic{
+    width: 170px;
+    height: 140px;
+    object-fit: cover;
+    object-position: center center;
+}
+.employeeProfileDetail .headingText h2{
+    font-size: 20px!important;
+    font-weight: 600;
+}
+.employeeProfileDetail .headingText h4{
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.employeeProfileDetail .headingText p{
+    font-size: 16px;
+    line-height: 1;
+}
+
+
+
+.leaveRadio .radio-button {
+  display: none;
+}
+.leaveRadio .radio-button-click-target {
+  cursor: pointer;
+    display: inline-block;
+    font-size: 19px;
+    line-height: 1.5;
+    padding: 4px 14px 2px 36px;
+    position: relative;
+}
+.leaveRadio .radio-button-click-target:hover .radio-button-circle:before, .radio-button-click-target:focus .radio-button-circle:before {
+  border-color: #185006;
+}
+.leaveRadio .radio-button-click-target:active .radio-button-circle:before {
+  transform: scale(1.1);
+}
+.leaveRadio .radio-button-circle {
+  border-radius: 0%;
+    cursor: pointer;
+    display: block;
+    height: 19px;
+    left: 4px;
+    position: absolute;
+    top: 8px;
+    transition: background-color 0.1s ease-out;
+    vertical-align: middle;
+    width: 24px;
+}
+.leaveRadio .radio-button-circle:before {
+  border: 6px solid #185006;
+    content: "";
+    display: inline-block;
+    height: 30px;
+    position: absolute;
+    top: -5px;
+    transition: border-color 0.1s ease-out, transform 0.1s ease-out;
+    left: -2px;
+    width: 30px;
+}
+.leaveRadio .radio-button:checked + .radio-button-click-target .radio-button-circle {
+  background-color: #165203;
+}
+.leaveRadio .radio-button:disabled + .radio-button-click-target {
+  cursor: not-allowed;
+}
+.leaveRadio .radio-button:disabled + .radio-button-click-target .radio-button-circle:before {
+  border-color: #e2e2e2;
+}
+.leaveRadio .radio-button:disabled + .radio-button-click-target:active .radio-button-circle:before {
+  transform: none;
+}
+
+
+
+
+.msgWrap{
+  position: fixed;
+  right: 10px;
+  z-index: 9;
+  top: 80px;
+}
+
+
+
+
+
+/*#birthdayModal .modal-body h4{
+  font-size: 65px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+*/
+/*.bg- {
+    background-color: #f2f2f2;
+}*/
